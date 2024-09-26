@@ -28,7 +28,7 @@ const PasswordForm = () => {
   return (
     <div className="form-container">
       <form>
-        <div>
+        <div className="form-group">
           <label htmlFor="email">Email:</label>
           <input
             type="email"
@@ -39,7 +39,7 @@ const PasswordForm = () => {
             required
           />
         </div>
-        <div>
+        <div className="form-group">
           <button
             type="button"
             onClick={generatePassword}
@@ -49,7 +49,7 @@ const PasswordForm = () => {
           </button>
         </div>
         {password && (
-          <div>
+          <div className="form-group">
             <label htmlFor="password">Senha:</label>
             <input
               type="text"
