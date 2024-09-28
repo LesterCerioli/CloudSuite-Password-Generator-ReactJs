@@ -45,12 +45,12 @@ const PasswordForm = () => {
             onClick={generatePassword}
             className={buttonClicked ? 'generate-button clicked' : 'generate-button'}
           >
-            Gerar Senha
+            Generate Password
           </button>
         </div>
         {password && (
           <div className="form-group">
-            <label htmlFor="password">Senha:</label>
+            <label htmlFor="password">Password:</label>
             <input
               type="text"
               id="password"
