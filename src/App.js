@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <h1>Gerador de Senha</h1>
+      <h1>Password Generator</h1>
         <PasswordForm />
       </header>
     </div>
